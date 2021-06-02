@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+html {
+	font-size: 62.5%;
+	background-color: #143319;
+	font-family: 'Crimson Text', serif;
+}
+
+body {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.h1-content {
+	color: #ffff00;
+}
+
+.h2-content {
+	margin-top: -2rem;
+	margin-bottom: 2.5rem;
+}
+
+ul {
+	list-style: none;
+}
+
+.list-content {
+	margin-left: 7rem;
+}
+
+.list__content-item {
+	margin-bottom: 1rem;
+}
+
+.list__content-item-controls {
+	margin-left: 2rem;
+}
+
+.fab {
+	padding-left: 1rem;
+}
+
+.habito {
+	display: flex;
+	width: 45rem;
+	background: linear-gradient(#81f7c0, #3f87a6);
+	color: #000;
+	justify-content: center;
+	padding: 1rem;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-left: 2rem;
+}
