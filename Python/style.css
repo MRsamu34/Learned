@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+    background-color: #000000e6;
+    color: #fff;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.menu {
+    background: #008f39f1;
+}
+
+.lista {
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista li {
+    font-size: 2rem;
+    color: #fff;
+    list-style-type: none;
+    margin-left: .5rem;
+}
+
+.lista a {
+    text-decoration: none;
+}

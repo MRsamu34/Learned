@@ -14,10 +14,34 @@ html {
     --sec-bg-color: #11a001;
     --p-bg-color: #4e4e4e;
     --text-color: #061308;
+    --wtext: #fff
 }
 
 body {
     background-color: #050505ec;
+}
+
+.menu {
+    background: #008f39f1;
+}
+
+.lista {
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista li {
+    font-size: 2rem;
+    color: #fff;
+    list-style-type: none;
+    margin-left: .5rem;
+}
+
+.lista a {
+    text-decoration: none;
 }
 
 .name {
