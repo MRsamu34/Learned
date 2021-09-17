@@ -5,7 +5,7 @@ html {
 
 :root {
     --main-bg-color: #000000e6;
-    --sec-bg-color: #11a001;
+    --sec-bg-color: #008f39f1;
     --p-bg-color: #4e4e4e;
     --text-color: #061308;
     --wtext: #fff
@@ -42,7 +42,8 @@ header img {
     text-align: center;
     border: solid #050f09 2px;
     border-radius: 10px;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: 2.8rem;
 }
 
@@ -57,10 +58,11 @@ header img {
 }
 
 
-main {
+.textos {
     margin-right: 10vw;
     margin-left: 10vw;
     font-size: 1.6rem;
+    margin-bottom: 4rem;
 }
 
 .emotion {
@@ -79,6 +81,18 @@ p {
     color: var(--text-color);
     font-weight: 600;
     font-size: 2rem;
+}
+
+main p {
+    border-radius: .5rem;
+}
+
+.init {
+    margin-bottom: 3rem;
+}
+
+.work {
+    margin-bottom: 3rem;
 }
 
 p::selection {
@@ -123,13 +137,18 @@ footer h4 a {
     font-size: 1.6rem;
 }
 
+footer::selection {
+    background: black;
+    color: #457457;
+}
+
 .facebul {
     color: #000000;
     text-decoration: none;
 }
 
 .fab {
-    color: #000000;
+    color: #88ff00;
     padding-right: .5rem;
     padding-top: .5rem;
 }

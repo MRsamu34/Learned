@@ -1,37 +1,12 @@
-/* html {
-    font-size: 62.5%;
-    background-color: #000000e6;
-    color: #fff;
+:root {
+    --main-bg-color: #000000e6;
+    --sec-bg-color: #008f39f1;
+    --p-bg-color: #4e4e4e;
+    --text-color: #061308;
+    --wtext: #fff
 }
 
-body {
-    font-size: 1.6rem;
-}
-
-.menu {
-    background: #008f39f1;
-}
-
-.lista {
-    width: 50rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.lista li {
-    font-size: 2rem;
-    color: #fff;
-    list-style-type: none;
-    margin-left: .5rem;
-}
-
-.lista a {
-    text-decoration: none;
-}
- */
-img {
+.main-image {
     width: 100%;
     height: 50rem;
     object-fit: cover;
@@ -40,4 +15,68 @@ img {
 
 .title {
     text-align: center;
+}
+
+.main {
+    margin-bottom: 4rem;
+}
+
+
+
+footer {
+    background: var(--sec-bg-color);
+    height: 2%;
+    text-align: start;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+footer h4 {
+    width: 100;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: start;
+    font-weight: 500;
+}
+
+footer h4 a {
+    font-size: 1.6rem;
+}
+
+.facebul {
+    color: #000000;
+    text-decoration: none;
+}
+
+.fab {
+    color: #000000;
+    padding-right: .5rem;
+    padding-top: .5rem;
+}
+
+.fa-html5 {
+    color: #f8885b;
+}
+
+.fa-css3-alt {
+    color: #006eff;
+}
+
+.fa-js-square {
+    color: #fff906;
+}
+
+.fa-git-alt {
+    color: #ff6600;
+}
+
+.fa-python {
+    color: #ece90d;
+
+}
+
+.fa-java {
+    color: #0066ff;
 }
