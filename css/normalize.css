@@ -43,11 +43,13 @@ body {
 }
 
 .lista {
-	width: 50rem;
-	height: 3rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .lista li {
