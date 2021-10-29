@@ -1,0 +1,22 @@
+.main-content h3 {
+    color: var(--sec-bg-color);
+}
+
+.main-content p {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+code {
+    background-color: #35343d;
+    color: green;
+}
+
+code::selection {
+    background: green;
+    color: black;
+}
+
+li {
+    margin-left: 3rem;
+}
